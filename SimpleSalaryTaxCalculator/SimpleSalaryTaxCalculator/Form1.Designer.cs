@@ -30,6 +30,7 @@
 		{
 			System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(LoginForm_FRM));
 			this.panel1 = new System.Windows.Forms.Panel();
+			this.Login_BTN = new System.Windows.Forms.Button();
 			this.ShowHide_BTN = new System.Windows.Forms.Button();
 			this.PassWord_TB = new System.Windows.Forms.TextBox();
 			this.PassWordMain_LBL = new System.Windows.Forms.Label();
@@ -45,7 +46,6 @@
 			this.UserNameStar_LBL = new System.Windows.Forms.Label();
 			this.PassWOrdStar_LBL = new System.Windows.Forms.Label();
 			this.ShowKeys_BTN = new System.Windows.Forms.Button();
-			this.Login_BTN = new System.Windows.Forms.Button();
 			this.panel1.SuspendLayout();
 			this.panel2.SuspendLayout();
 			((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -53,6 +53,7 @@
 			// 
 			// panel1
 			// 
+			this.panel1.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
 			this.panel1.BackColor = System.Drawing.SystemColors.ControlDark;
 			this.panel1.Controls.Add(this.Login_BTN);
 			this.panel1.Controls.Add(this.ShowHide_BTN);
@@ -64,6 +65,20 @@
 			this.panel1.Name = "panel1";
 			this.panel1.Size = new System.Drawing.Size(289, 282);
 			this.panel1.TabIndex = 0;
+			// 
+			// Login_BTN
+			// 
+			this.Login_BTN.BackColor = System.Drawing.Color.MediumSeaGreen;
+			this.Login_BTN.Cursor = System.Windows.Forms.Cursors.Hand;
+			this.Login_BTN.Font = new System.Drawing.Font("IRANSansWeb", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Pixel, ((byte)(0)));
+			this.Login_BTN.Location = new System.Drawing.Point(19, 160);
+			this.Login_BTN.Name = "Login_BTN";
+			this.Login_BTN.Padding = new System.Windows.Forms.Padding(0, 3, 0, 0);
+			this.Login_BTN.Size = new System.Drawing.Size(255, 30);
+			this.Login_BTN.TabIndex = 9;
+			this.Login_BTN.Text = "Login";
+			this.Login_BTN.UseVisualStyleBackColor = false;
+			this.Login_BTN.Click += new System.EventHandler(this.Login_BTN_Click);
 			// 
 			// ShowHide_BTN
 			// 
@@ -216,20 +231,6 @@
 			this.ShowKeys_BTN.UseVisualStyleBackColor = false;
 			this.ShowKeys_BTN.Click += new System.EventHandler(this.ShowKeys_BTN_Click);
 			// 
-			// Login_BTN
-			// 
-			this.Login_BTN.BackColor = System.Drawing.Color.MediumSeaGreen;
-			this.Login_BTN.Cursor = System.Windows.Forms.Cursors.Hand;
-			this.Login_BTN.Font = new System.Drawing.Font("IRANSansWeb", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Pixel, ((byte)(0)));
-			this.Login_BTN.Location = new System.Drawing.Point(19, 160);
-			this.Login_BTN.Name = "Login_BTN";
-			this.Login_BTN.Padding = new System.Windows.Forms.Padding(0, 3, 0, 0);
-			this.Login_BTN.Size = new System.Drawing.Size(255, 30);
-			this.Login_BTN.TabIndex = 9;
-			this.Login_BTN.Text = "Login";
-			this.Login_BTN.UseVisualStyleBackColor = false;
-			this.Login_BTN.Click += new System.EventHandler(this.Login_BTN_Click);
-			// 
 			// LoginForm_FRM
 			// 
 			this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 19F);
@@ -249,6 +250,7 @@
 			this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
 			this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
 			this.Margin = new System.Windows.Forms.Padding(3, 5, 3, 5);
+			this.MaximizeBox = false;
 			this.Name = "LoginForm_FRM";
 			this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
 			this.Text = "Login";

@@ -83,6 +83,16 @@ namespace SimpleSalaryTaxCalculator.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
         /// </summary>
+        internal static System.Drawing.Icon icons8_control_panel {
+            get {
+                object obj = ResourceManager.GetObject("icons8_control_panel", resourceCulture);
+                return ((System.Drawing.Icon)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
+        /// </summary>
         internal static System.Drawing.Icon loginIcon {
             get {
                 object obj = ResourceManager.GetObject("loginIcon", resourceCulture);
