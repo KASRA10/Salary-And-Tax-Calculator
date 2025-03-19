@@ -30,9 +30,14 @@
 		{
 			System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(LoginForm_FRM));
 			this.panel1 = new System.Windows.Forms.Panel();
+			this.ShowHide_BTN = new System.Windows.Forms.Button();
+			this.PassWord_TB = new System.Windows.Forms.TextBox();
+			this.PassWordMain_LBL = new System.Windows.Forms.Label();
+			this.UserName_TB = new System.Windows.Forms.TextBox();
+			this.UserNameMain_LBL = new System.Windows.Forms.Label();
 			this.panel2 = new System.Windows.Forms.Panel();
-			this.pictureBox1 = new System.Windows.Forms.PictureBox();
 			this.label1 = new System.Windows.Forms.Label();
+			this.pictureBox1 = new System.Windows.Forms.PictureBox();
 			this.UserNameSecret_LBL = new System.Windows.Forms.Label();
 			this.PassWordSecret_LBL = new System.Windows.Forms.Label();
 			this.UserNameTitleSecret_LBL = new System.Windows.Forms.Label();
@@ -40,10 +45,7 @@
 			this.UserNameStar_LBL = new System.Windows.Forms.Label();
 			this.PassWOrdStar_LBL = new System.Windows.Forms.Label();
 			this.ShowKeys_BTN = new System.Windows.Forms.Button();
-			this.UserNameMain_LBL = new System.Windows.Forms.Label();
-			this.UserName_TB = new System.Windows.Forms.TextBox();
-			this.PassWordMain_LBL = new System.Windows.Forms.Label();
-			this.PassWord_TB = new System.Windows.Forms.TextBox();
+			this.Login_BTN = new System.Windows.Forms.Button();
 			this.panel1.SuspendLayout();
 			this.panel2.SuspendLayout();
 			((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -52,6 +54,8 @@
 			// panel1
 			// 
 			this.panel1.BackColor = System.Drawing.SystemColors.ControlDark;
+			this.panel1.Controls.Add(this.Login_BTN);
+			this.panel1.Controls.Add(this.ShowHide_BTN);
 			this.panel1.Controls.Add(this.PassWord_TB);
 			this.panel1.Controls.Add(this.PassWordMain_LBL);
 			this.panel1.Controls.Add(this.UserName_TB);
@@ -60,6 +64,56 @@
 			this.panel1.Name = "panel1";
 			this.panel1.Size = new System.Drawing.Size(289, 282);
 			this.panel1.TabIndex = 0;
+			// 
+			// ShowHide_BTN
+			// 
+			this.ShowHide_BTN.BackColor = System.Drawing.SystemColors.MenuText;
+			this.ShowHide_BTN.BackgroundImage = global::SimpleSalaryTaxCalculator.Properties.Resources.ShowEye;
+			this.ShowHide_BTN.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
+			this.ShowHide_BTN.Cursor = System.Windows.Forms.Cursors.Hand;
+			this.ShowHide_BTN.Location = new System.Drawing.Point(234, 114);
+			this.ShowHide_BTN.Name = "ShowHide_BTN";
+			this.ShowHide_BTN.Size = new System.Drawing.Size(40, 40);
+			this.ShowHide_BTN.TabIndex = 9;
+			this.ShowHide_BTN.UseVisualStyleBackColor = false;
+			this.ShowHide_BTN.Click += new System.EventHandler(this.ShowHide_BTN_Click);
+			// 
+			// PassWord_TB
+			// 
+			this.PassWord_TB.BackColor = System.Drawing.SystemColors.Info;
+			this.PassWord_TB.Location = new System.Drawing.Point(84, 121);
+			this.PassWord_TB.Name = "PassWord_TB";
+			this.PassWord_TB.PasswordChar = '*';
+			this.PassWord_TB.Size = new System.Drawing.Size(190, 26);
+			this.PassWord_TB.TabIndex = 3;
+			// 
+			// PassWordMain_LBL
+			// 
+			this.PassWordMain_LBL.AutoSize = true;
+			this.PassWordMain_LBL.Font = new System.Drawing.Font("IRANSansWeb", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Pixel, ((byte)(0)));
+			this.PassWordMain_LBL.Location = new System.Drawing.Point(17, 124);
+			this.PassWordMain_LBL.Name = "PassWordMain_LBL";
+			this.PassWordMain_LBL.Size = new System.Drawing.Size(66, 19);
+			this.PassWordMain_LBL.TabIndex = 2;
+			this.PassWordMain_LBL.Text = "PassWord:";
+			// 
+			// UserName_TB
+			// 
+			this.UserName_TB.BackColor = System.Drawing.SystemColors.Info;
+			this.UserName_TB.Location = new System.Drawing.Point(84, 81);
+			this.UserName_TB.Name = "UserName_TB";
+			this.UserName_TB.Size = new System.Drawing.Size(190, 26);
+			this.UserName_TB.TabIndex = 1;
+			// 
+			// UserNameMain_LBL
+			// 
+			this.UserNameMain_LBL.AutoSize = true;
+			this.UserNameMain_LBL.Font = new System.Drawing.Font("IRANSansWeb", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Pixel, ((byte)(0)));
+			this.UserNameMain_LBL.Location = new System.Drawing.Point(17, 84);
+			this.UserNameMain_LBL.Name = "UserNameMain_LBL";
+			this.UserNameMain_LBL.Size = new System.Drawing.Size(66, 19);
+			this.UserNameMain_LBL.TabIndex = 0;
+			this.UserNameMain_LBL.Text = "UserName:";
 			// 
 			// panel2
 			// 
@@ -71,6 +125,16 @@
 			this.panel2.Size = new System.Drawing.Size(556, 54);
 			this.panel2.TabIndex = 1;
 			// 
+			// label1
+			// 
+			this.label1.AutoSize = true;
+			this.label1.Font = new System.Drawing.Font("IRANSansWeb", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Pixel, ((byte)(0)));
+			this.label1.Location = new System.Drawing.Point(195, 20);
+			this.label1.Name = "label1";
+			this.label1.Size = new System.Drawing.Size(185, 19);
+			this.label1.TabIndex = 3;
+			this.label1.Text = "Powered By Kasra Hosseini-K10";
+			// 
 			// pictureBox1
 			// 
 			this.pictureBox1.Cursor = System.Windows.Forms.Cursors.Hand;
@@ -81,16 +145,6 @@
 			this.pictureBox1.TabIndex = 2;
 			this.pictureBox1.TabStop = false;
 			this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
-			// 
-			// label1
-			// 
-			this.label1.AutoSize = true;
-			this.label1.Font = new System.Drawing.Font("IRANSansWeb", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Pixel, ((byte)(0)));
-			this.label1.Location = new System.Drawing.Point(195, 20);
-			this.label1.Name = "label1";
-			this.label1.Size = new System.Drawing.Size(185, 19);
-			this.label1.TabIndex = 3;
-			this.label1.Text = "Powered By Kasra Hosseini-K10";
 			// 
 			// UserNameSecret_LBL
 			// 
@@ -151,6 +205,7 @@
 			// ShowKeys_BTN
 			// 
 			this.ShowKeys_BTN.BackColor = System.Drawing.Color.Coral;
+			this.ShowKeys_BTN.Cursor = System.Windows.Forms.Cursors.Hand;
 			this.ShowKeys_BTN.Font = new System.Drawing.Font("IRANSansWeb", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Pixel, ((byte)(0)));
 			this.ShowKeys_BTN.Location = new System.Drawing.Point(12, 209);
 			this.ShowKeys_BTN.Name = "ShowKeys_BTN";
@@ -161,42 +216,19 @@
 			this.ShowKeys_BTN.UseVisualStyleBackColor = false;
 			this.ShowKeys_BTN.Click += new System.EventHandler(this.ShowKeys_BTN_Click);
 			// 
-			// UserNameMain_LBL
+			// Login_BTN
 			// 
-			this.UserNameMain_LBL.AutoSize = true;
-			this.UserNameMain_LBL.Font = new System.Drawing.Font("IRANSansWeb", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Pixel, ((byte)(0)));
-			this.UserNameMain_LBL.Location = new System.Drawing.Point(23, 63);
-			this.UserNameMain_LBL.Name = "UserNameMain_LBL";
-			this.UserNameMain_LBL.Size = new System.Drawing.Size(66, 19);
-			this.UserNameMain_LBL.TabIndex = 0;
-			this.UserNameMain_LBL.Text = "UserName:";
-			// 
-			// UserName_TB
-			// 
-			this.UserName_TB.BackColor = System.Drawing.SystemColors.Info;
-			this.UserName_TB.Location = new System.Drawing.Point(90, 60);
-			this.UserName_TB.Name = "UserName_TB";
-			this.UserName_TB.Size = new System.Drawing.Size(190, 26);
-			this.UserName_TB.TabIndex = 1;
-			// 
-			// PassWordMain_LBL
-			// 
-			this.PassWordMain_LBL.AutoSize = true;
-			this.PassWordMain_LBL.Font = new System.Drawing.Font("IRANSansWeb", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Pixel, ((byte)(0)));
-			this.PassWordMain_LBL.Location = new System.Drawing.Point(23, 103);
-			this.PassWordMain_LBL.Name = "PassWordMain_LBL";
-			this.PassWordMain_LBL.Size = new System.Drawing.Size(66, 19);
-			this.PassWordMain_LBL.TabIndex = 2;
-			this.PassWordMain_LBL.Text = "PassWord:";
-			// 
-			// PassWord_TB
-			// 
-			this.PassWord_TB.BackColor = System.Drawing.SystemColors.Info;
-			this.PassWord_TB.Location = new System.Drawing.Point(90, 100);
-			this.PassWord_TB.Name = "PassWord_TB";
-			this.PassWord_TB.PasswordChar = '*';
-			this.PassWord_TB.Size = new System.Drawing.Size(190, 26);
-			this.PassWord_TB.TabIndex = 3;
+			this.Login_BTN.BackColor = System.Drawing.Color.MediumSeaGreen;
+			this.Login_BTN.Cursor = System.Windows.Forms.Cursors.Hand;
+			this.Login_BTN.Font = new System.Drawing.Font("IRANSansWeb", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Pixel, ((byte)(0)));
+			this.Login_BTN.Location = new System.Drawing.Point(19, 160);
+			this.Login_BTN.Name = "Login_BTN";
+			this.Login_BTN.Padding = new System.Windows.Forms.Padding(0, 3, 0, 0);
+			this.Login_BTN.Size = new System.Drawing.Size(255, 30);
+			this.Login_BTN.TabIndex = 9;
+			this.Login_BTN.Text = "Login";
+			this.Login_BTN.UseVisualStyleBackColor = false;
+			this.Login_BTN.Click += new System.EventHandler(this.Login_BTN_Click);
 			// 
 			// LoginForm_FRM
 			// 
@@ -247,6 +279,8 @@
 		private System.Windows.Forms.Label PassWordMain_LBL;
 		private System.Windows.Forms.TextBox UserName_TB;
 		private System.Windows.Forms.Label UserNameMain_LBL;
+		private System.Windows.Forms.Button ShowHide_BTN;
+		private System.Windows.Forms.Button Login_BTN;
 	}
 }
 

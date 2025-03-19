@@ -63,6 +63,16 @@ namespace SimpleSalaryTaxCalculator.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap EyeClose {
+            get {
+                object obj = ResourceManager.GetObject("EyeClose", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap favIcon {
             get {
                 object obj = ResourceManager.GetObject("favIcon", resourceCulture);
@@ -76,6 +86,26 @@ namespace SimpleSalaryTaxCalculator.Properties {
         internal static System.Drawing.Icon loginIcon {
             get {
                 object obj = ResourceManager.GetObject("loginIcon", resourceCulture);
+                return ((System.Drawing.Icon)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap ShowEye {
+            get {
+                object obj = ResourceManager.GetObject("ShowEye", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
+        /// </summary>
+        internal static System.Drawing.Icon WaitingIcon {
+            get {
+                object obj = ResourceManager.GetObject("WaitingIcon", resourceCulture);
                 return ((System.Drawing.Icon)(obj));
             }
         }
