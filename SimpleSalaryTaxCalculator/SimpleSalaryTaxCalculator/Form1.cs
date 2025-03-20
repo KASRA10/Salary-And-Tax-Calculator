@@ -96,7 +96,7 @@ namespace SimpleSalaryTaxCalculator
 				}
 				else
 				{
-					DialogResult result = MessageBox.Show("UserName Or PassWord is Wrong, After 5 Seconds, Please Check Info Button In The Bottom-Left Panel", "Warning", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+					DialogResult result = MessageBox.Show("UserName Or PassWord is Wrong, If It Is Visible!!!, Please Check Info Button In The Bottom-Left Panel", "Warning", MessageBoxButtons.OK, MessageBoxIcon.Warning);
 					counter++;
 					if (counter == 3)
 					{
