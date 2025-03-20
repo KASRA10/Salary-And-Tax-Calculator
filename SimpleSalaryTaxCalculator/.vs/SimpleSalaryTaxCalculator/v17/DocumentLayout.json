@@ -3,27 +3,12 @@
   "WorkspaceRootPath": "E:\\WORKSPACE\\simple_salary_and_tax_calculator\\SimpleSalaryTaxCalculator\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{64DD9974-1290-4B67-B10E-94B1DC6CA008}|SimpleSalaryTaxCalculator\\SimpleSalaryTaxCalculator.csproj|e:\\workspace\\simple_salary_and_tax_calculator\\simplesalarytaxcalculator\\simplesalarytaxcalculator\\dashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{64DD9974-1290-4B67-B10E-94B1DC6CA008}|SimpleSalaryTaxCalculator\\SimpleSalaryTaxCalculator.csproj|solutionrelative:simplesalarytaxcalculator\\dashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{64DD9974-1290-4B67-B10E-94B1DC6CA008}|SimpleSalaryTaxCalculator\\SimpleSalaryTaxCalculator.csproj|E:\\WORKSPACE\\simple_salary_and_tax_calculator\\SimpleSalaryTaxCalculator\\simplesalarytaxcalculator\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{64DD9974-1290-4B67-B10E-94B1DC6CA008}|SimpleSalaryTaxCalculator\\SimpleSalaryTaxCalculator.csproj|solutionrelative:simplesalarytaxcalculator\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{64DD9974-1290-4B67-B10E-94B1DC6CA008}|SimpleSalaryTaxCalculator\\SimpleSalaryTaxCalculator.csproj|e:\\workspace\\simple_salary_and_tax_calculator\\simplesalarytaxcalculator\\simplesalarytaxcalculator\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{64DD9974-1290-4B67-B10E-94B1DC6CA008}|SimpleSalaryTaxCalculator\\SimpleSalaryTaxCalculator.csproj|solutionrelative:simplesalarytaxcalculator\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{64DD9974-1290-4B67-B10E-94B1DC6CA008}|SimpleSalaryTaxCalculator\\SimpleSalaryTaxCalculator.csproj|e:\\workspace\\simple_salary_and_tax_calculator\\simplesalarytaxcalculator\\simplesalarytaxcalculator\\dashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{64DD9974-1290-4B67-B10E-94B1DC6CA008}|SimpleSalaryTaxCalculator\\SimpleSalaryTaxCalculator.csproj|E:\\WORKSPACE\\simple_salary_and_tax_calculator\\SimpleSalaryTaxCalculator\\simplesalarytaxcalculator\\dashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{64DD9974-1290-4B67-B10E-94B1DC6CA008}|SimpleSalaryTaxCalculator\\SimpleSalaryTaxCalculator.csproj|solutionrelative:simplesalarytaxcalculator\\dashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{00000000-0000-0000-0000-000000000000}|\u003CSolution\u003E|SimpleSalaryTaxCalculator||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{64DD9974-1290-4B67-B10E-94B1DC6CA008}|SimpleSalaryTaxCalculator\\SimpleSalaryTaxCalculator.csproj|e:\\workspace\\simple_salary_and_tax_calculator\\simplesalarytaxcalculator\\simplesalarytaxcalculator\\properties\\resources.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}",
-      "RelativeMoniker": "D:0:0:{64DD9974-1290-4B67-B10E-94B1DC6CA008}|SimpleSalaryTaxCalculator\\SimpleSalaryTaxCalculator.csproj|solutionrelative:simplesalarytaxcalculator\\properties\\resources.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}"
+      "AbsoluteMoniker": "D:0:0:{64DD9974-1290-4B67-B10E-94B1DC6CA008}|SimpleSalaryTaxCalculator\\SimpleSalaryTaxCalculator.csproj|e:\\workspace\\simple_salary_and_tax_calculator\\simplesalarytaxcalculator\\simplesalarytaxcalculator\\dashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{64DD9974-1290-4B67-B10E-94B1DC6CA008}|SimpleSalaryTaxCalculator\\SimpleSalaryTaxCalculator.csproj|solutionrelative:simplesalarytaxcalculator\\dashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -33,24 +18,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "Dashboard.cs",
               "DocumentMoniker": "E:\\WORKSPACE\\simple_salary_and_tax_calculator\\SimpleSalaryTaxCalculator\\SimpleSalaryTaxCalculator\\Dashboard.cs",
               "RelativeDocumentMoniker": "SimpleSalaryTaxCalculator\\Dashboard.cs",
               "ToolTip": "E:\\WORKSPACE\\simple_salary_and_tax_calculator\\SimpleSalaryTaxCalculator\\SimpleSalaryTaxCalculator\\Dashboard.cs",
               "RelativeToolTip": "SimpleSalaryTaxCalculator\\Dashboard.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAjAAAAAAAAAA==",
+              "ViewState": "AgIAADoAAAAAAAAAAAAqwFIAAAATAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-19T12:52:54.099Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Dashboard.cs [Design]",
               "DocumentMoniker": "E:\\WORKSPACE\\simple_salary_and_tax_calculator\\SimpleSalaryTaxCalculator\\SimpleSalaryTaxCalculator\\Dashboard.cs",
               "RelativeDocumentMoniker": "SimpleSalaryTaxCalculator\\Dashboard.cs",
@@ -59,43 +44,6 @@
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-19T12:22:04.7Z",
               "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Form1.cs",
-              "DocumentMoniker": "E:\\WORKSPACE\\simple_salary_and_tax_calculator\\SimpleSalaryTaxCalculator\\SimpleSalaryTaxCalculator\\Form1.cs",
-              "RelativeDocumentMoniker": "SimpleSalaryTaxCalculator\\Form1.cs",
-              "ToolTip": "E:\\WORKSPACE\\simple_salary_and_tax_calculator\\SimpleSalaryTaxCalculator\\SimpleSalaryTaxCalculator\\Form1.cs",
-              "RelativeToolTip": "SimpleSalaryTaxCalculator\\Form1.cs",
-              "ViewState": "AgIAAFEAAAAAAAAAAAAiwF4AAAARAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-19T10:36:05.586Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Form1.cs [Design]",
-              "DocumentMoniker": "E:\\WORKSPACE\\simple_salary_and_tax_calculator\\SimpleSalaryTaxCalculator\\SimpleSalaryTaxCalculator\\Form1.cs",
-              "RelativeDocumentMoniker": "SimpleSalaryTaxCalculator\\Form1.cs",
-              "ToolTip": "E:\\WORKSPACE\\simple_salary_and_tax_calculator\\SimpleSalaryTaxCalculator\\SimpleSalaryTaxCalculator\\Form1.cs [Design]",
-              "RelativeToolTip": "SimpleSalaryTaxCalculator\\Form1.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-19T10:24:32.677Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "SimpleSalaryTaxCalculator",
-              "DocumentMoniker": "E:\\WORKSPACE\\simple_salary_and_tax_calculator\\SimpleSalaryTaxCalculator\\SimpleSalaryTaxCalculator\\SimpleSalaryTaxCalculator.csproj",
-              "RelativeDocumentMoniker": "SimpleSalaryTaxCalculator\\SimpleSalaryTaxCalculator.csproj",
-              "ToolTip": "E:\\WORKSPACE\\simple_salary_and_tax_calculator\\SimpleSalaryTaxCalculator\\SimpleSalaryTaxCalculator\\SimpleSalaryTaxCalculator.csproj",
-              "RelativeToolTip": "SimpleSalaryTaxCalculator\\SimpleSalaryTaxCalculator.csproj",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2025-03-19T10:28:56.455Z",
-              "EditorCaption": ""
             }
           ]
         }
