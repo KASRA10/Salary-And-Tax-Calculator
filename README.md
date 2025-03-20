@@ -1,5 +1,11 @@
 # Salary and Tax Calculator (Iran)
 
+# 📸 Image Preview
+![SalaryK10](https://github.com/user-attachments/assets/6dd961fe-5ee8-471d-ab34-54df7371b5af)
+
+# 🎥 Video Preview
+https://github.com/user-attachments/assets/4b52fabe-884d-4795-a839-4f3090b1012f
+
 ## About
 This is a simple C# application built using Windows Forms to calculate salary and tax based on regulations in Iran. The project includes a login page for user authentication and a main dashboard where the salary and tax calculations are performed. It is a personal training and practice project designed to enhance my programming skills while creating a functional and user-friendly tool.
 
